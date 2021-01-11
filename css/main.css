@@ -1,0 +1,67 @@
+.img1{
+    background-image: url('../images/1.jpg');
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .text1{
+    font-size: 48px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 2px;
+  }
+  .div2{
+    margin-left: 5rem;
+    border-radius: 8px;
+    background-color: white;
+    /*text-align: center;*/
+    padding: 10px;
+    font-size: 15px;
+    /*float: left;*/
+    /*font-style: italic;*/
+    /*border:1px solid green;*/
+    /*box-shadow: 10px 10px 10px 0px;*/
+  }
+  .btn1{
+    background-color: #cddc39;
+    width: 100%;
+  }
+   select {
+-moz-appearance:none; /* Firefox */
+-webkit-appearance:none; /* Safari and Chrome */
+appearance:none;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;
+margin: 0; 
+}
+  @media only screen and (max-width: 766px) {
+.img1 {
+background:inherit;
+
+}
+.head{
+display: none;
+
+}
+.div2{
+margin-left: 0;
+padding: 10px;
+}
+}
+footer{
+background-color:black;
+opacity: 0.6;
+}
+.signup-form{
+    background-color: black;
+    /* width: 600px; */
+    height: 30.8rem;
+    padding: 10px;
+    padding-top: 2rem;
+    text-align: center;
+}
